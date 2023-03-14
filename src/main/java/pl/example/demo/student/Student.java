@@ -9,7 +9,7 @@ import jakarta.persistence.*;
 @Entity // hibernate
 @Table // for table in database
 public class Student {
-
+// dodaje komentarz zeby sprawdzic czy git dziala
     @Id
     @SequenceGenerator(
         name = "student_sequence",
